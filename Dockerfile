@@ -7,3 +7,4 @@ COPY Marks.pkl /
 COPY marks.py  /
 CMD python3 marks.py
 CMD ["nginx", "-g", "daemon off;"]
+ENTRYPOINT ["marks.py"]
